@@ -4,6 +4,6 @@
 <configuration>
     <!-- 为JavaBean 起类别名 -->
     <typeAliases>
-        <package name="com.shiyanlou.domain" />
+        <package name="com.ghh.domain" />
     </typeAliases> 
 </configuration>

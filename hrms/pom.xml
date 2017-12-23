@@ -18,7 +18,7 @@
         <dependency>
             <groupId>junit</groupId>
             <artifactId>junit</artifactId>
-            <version>4.10</version>
+            <version>4.1</version>
             <scope>test</scope>
         </dependency>
         <dependency>
@@ -181,11 +181,13 @@
             <artifactId>json</artifactId>
             <version>20160810</version>
         </dependency>
-        <dependency>
-            <groupId>com.baidu</groupId>
-            <artifactId>ueditor</artifactId>
-            <version>1.1.2</version>
-        </dependency>
+		<!-- https://mvnrepository.com/artifact/com.blingblingbang/ueditor -->
+		<dependency>
+    		<groupId>com.blingblingbang</groupId>
+    		<artifactId>ueditor</artifactId>
+    		<version>1.1.2</version>
+		</dependency>
+
 
         <dependency>
             <groupId>com.alibaba</groupId>
