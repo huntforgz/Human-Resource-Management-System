@@ -20,7 +20,7 @@ public interface AdminDao {
      * 
      * @param map
      * @return
-     */
+     *../
     public List<Admin> findAdmins(Map<String, Object> map);
 
     /** 根据条件查询管理员人数
