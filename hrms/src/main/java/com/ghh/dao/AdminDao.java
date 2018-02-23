@@ -1,5 +1,4 @@
 package com.ghh.dao;
-import java.util.concurrent.*;
 
 import java.util.List;
 import java.util.Map;
@@ -7,6 +6,8 @@ import java.util.Map;
 import org.springframework.stereotype.Repository;
 
 import com.ghh.domain.Admin;
+
+@Repository
 public interface AdminDao {
 
     /** 登录
@@ -20,7 +21,7 @@ public interface AdminDao {
      * 
      * @param map
      * @return
-     *../
+     */
     public List<Admin> findAdmins(Map<String, Object> map);
 
     /** 根据条件查询管理员人数
